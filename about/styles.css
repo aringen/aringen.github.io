@@ -1,0 +1,108 @@
+:root {
+  --primary: coral;
+  --dark: red;
+  --light: #fff;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  --shadow2: 0 3px 5px rgba(104, 104, 104, 0.9);
+}
+
+body {
+  background-color: #FFDAB9;
+}
+
+h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 30px;
+  color: red;
+  text-align: center;
+  text-shadow: 2px 2px cyan;
+}
+
+header {
+  display: block;
+  box-shadow: var(--shadow);
+  border-width: thin;
+  border-style: ridge;
+  margin: 0px;
+  width: auto;
+  background-color: coral;
+  padding: 0;
+}
+
+.main-nav ul {
+  display: grid;
+  grid-gap: 15px;
+  list-style: none;
+  padding: 0;
+  grid-template-columns: repeat(4, 1fr);
+}
+.main-nav a {
+  background: var(--primary);
+  display: block;
+  text-decoration: none;
+  padding: 0.8rem;
+  text-align: center;
+  color: var(--dark);
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  box-shadow: var(--shadow);
+}
+.main-nav a:hover {
+  background: var(--dark);
+  color: var(--light);
+}
+
+.nav-design {
+  vertical-align: top;
+  display: inline-grid;
+  font-family: 'Calistoga', cursive;
+  text-shadow: var(--shadow2);
+  color: var(--dark);
+}
+
+.aboutus{
+  display: grid;
+  grid-gap: 99px;
+  padding: 0;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.col1 {
+  background-color: var(--primary)
+}
+h2 {
+  padding-left: .8rem;
+  color: red;
+  text-shadow: var(--shadow2);
+}
+.col2 {
+  background-color: var(--primary);
+}
+
+
+img {
+  width: 500px;
+  margin: 0;
+  margin-bottom: -7px;
+  padding: 0;
+}
+
+span {
+  vertical-align: top;
+  word-wrap: break-word;
+  text-align: left;
+  padding-left: 250px;
+  margin-bottom: 75px;
+}
+
+footer{
+  background-color: var(--primary);
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  font-style: italic;
+}
+p {
+  margin-left: 5px;
+  font-size: 16px;
+}
